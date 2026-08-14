@@ -1,0 +1,116 @@
+/* section reforestation */
+    .arbre{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 600px;
+        height: 300px;
+        border-radius: 20px;
+        background-color: white;
+    }
+
+    .arbre img{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    .flc-lien{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: end;
+        width: 300px;
+        height: 290px;
+    }
+        .flc-lien img{
+        background-color: white;
+        position: relative;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+
+    .flc-lien a{
+        position: relative;
+        background-color: white;
+        padding: 10px;
+        font-size: 12px;
+        color: black;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+
+    .paragrapheg{
+        font-size: 20px;
+        margin-left: 320px;
+        margin-top: -280px;
+    }
+
+        .paragrapheg a{
+        background-color: white;
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+
+    .paragrapheg span{
+        font-size: 13px;
+        color: #9097a3;
+    }
+
+    .paragrapheg p{
+        font-size: 16px;
+        width: 150px;
+        margin-top: -40px;
+    }
+
+        #Reforestation, #Vegetation, #Nature{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .droite{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+        .droite p{
+        font-size: 30px;
+        width: 450px;
+    }
+    .droite p span{
+        background-color: #9097a3;
+        border-radius: 10px;
+    }
+
+    .droite div{
+        width: 450px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .droite div input{
+        background-color: white;
+        border-radius: 20px;
+        width: 230px;
+        height: 30px;
+        border: none;
+    }
+    .droite div ::placeholder{
+        color: black;
+    }
+
+        .droite div p{
+        width: 160px;
+        color: #9097a3;
+        font-size: 12px;
+    }
+/* fin section reforestation */

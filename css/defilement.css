@@ -1,0 +1,13 @@
+/* section defilement */
+    .defilement{
+        background: linear-gradient(#C9D6FF,#E2E2E2);
+    }
+
+    .defilement .element{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }

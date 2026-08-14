@@ -1,0 +1,120 @@
+/* sectio  nature */
+
+.gaImg img{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.gaImg .ga-flc img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: 410px;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+.gaImg .ga-flc input{
+    position: relative;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 260px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.blocs{
+    display: flex;
+    flex-direction: row;
+}
+.bloc1{
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.bloc2{
+    background-color: white;
+    margin-left: 25px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.bloc1 img, .bloc2 img{
+    width: 30px;
+    height: 30px;
+}
+.bloc1 span+img, .bloc2 span+img{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.middleD{
+    width: 600px;
+}
+.middleText .new{
+    background: linear-gradient(#C9D6FF,#E2E2E2);
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.middleText .span{
+    font-size: 12px;
+}
+
+.middleText p{
+    width: 520px;
+    font-size: 35px;
+}
+
+.middleText p .tips{
+    background-color: #9097a3;
+    border-radius: 20px;
+    padding: 6px;
+    font-size: 35px;
+}
+
+.footprint{
+    margin-top: -70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footprint .footIMG img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.footprint .footIMG input{
+    position: relative;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 150px;
+    margin-left: 10px;
+    width: 90px;
+}
+.footParagraf{
+    margin-left: 130px;
+    width: 200px;
+}
+.footParagraf img{
+    width: 50px;
+    height: 50px;
+}
+.footParagraf p{
+    width: 230px;
+    color: #9097a3;
+}
+/* fin section Nature */

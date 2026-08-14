@@ -1,0 +1,166 @@
+/* section introduction */
+    .premier{
+        padding: 20px;
+    }
+
+    /* paragraphe placer directement apres la section ouverte */
+        .premier p{
+        width: 190px;
+        }
+/* fin section introduction */
+
+/* Grande photo de la section introduction */
+    .photoAccueil{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .photoAccueil .photoAccueil1{
+        position: absolute;
+        border-radius: 20px;
+        height: 600px;
+        width: 450px;
+    }
+    .photoAccueil .hautDroite{
+        position: relative;
+        background-color: whitesmoke;
+        border-radius: 20px;
+    }
+        /* fleche sur la grande image */
+        .divFlecheHD{
+            position: relative;
+            padding: 20px;
+            border-radius: 50%;
+            background-color: whitesmoke;
+            bottom: 10px;
+            left: 12px;
+        }
+    
+    /* bloc au dessus de la grande photo */
+        .divAuDessus{
+            width: 200px;
+            height: 350px;
+            background-color: white;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 700px;
+            border-radius: 20px;
+            margin-top: -60px;
+        }
+        .divAuDessus .imgAuDessus{
+            position: relative;
+            width: 160px;
+            height: 170px;
+            border-radius: 25px;
+            padding: 15px;
+        }
+    
+    /* ligne verticale du bloc au dessus de la grande img */
+        .divAuDessus hr{
+            width: 200px;
+            border: 1px solid rgba(128, 128, 128, 0.849);
+        }
+        
+
+
+    /* paragraphe apres la ligne verticale */
+        .divAuDessus p{
+            font-size: 10px;
+            text-align: left;
+            margin-left: 24px;
+        }
+
+    /* avatar apres la ligne verticale */
+        .divAuDessus .avatar{
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+        }
+
+        .divAuDessus span{
+            font-style: normal;
+            font-size: 10px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+            align-items: flex-end;
+            margin-top: -30px;
+        }
+
+        .divAuDessus em{
+            font-style: normal;
+            font-size: 10px;
+            margin-left: 30px;
+            color: rgba(128, 128, 128, 0.849);
+        }
+/* Fin grande photo de l'introduction */
+
+/* photo utilisateur */
+    .users img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .users {
+        margin-top: 200px;
+    }
+
+    .users p{
+        font-size: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin-left: 120px;
+        margin-top: -60px;
+    }
+
+    .users sub{
+        font-size: 15px;
+    }
+
+    .users span{
+        display: flex;
+        font-size: 12px;
+        color: rgba(128, 128, 128, 0.849);
+        margin-left: 120px;
+        margin-top: -30px;
+    }
+
+    .users .boule{
+        position: absolute;
+        border-radius: 50%;
+    }
+
+    .users .asiat{
+        position: relative;
+        left: 120px;
+        margin-left: -90px;
+    }
+/* fin photo utilisateur */
+
+/* paragraphe en dessous des photos utilisateurs */
+    .textBas{
+        margin-top: 80px;
+        font-size: 40px;
+    }
+    .textBas p{
+        width: 300px;
+        height: 200px;
+    }
+    /* input "Learn More" */
+        .textBas p input{
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 30px;
+            width: 60px;
+            height: 36px;
+        }
+    .textBas p img{
+        border-radius: 40px;
+        margin-left: -50px;
+        margin-bottom: -15px;
+    }
+
+/* Fin paragraphe en dessous des photos utilisateurs */

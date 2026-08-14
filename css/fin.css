@@ -1,0 +1,224 @@
+body{
+    background-color: whitesmoke;
+    font-family: "Stack Sans Text", sans-serif;
+}
+
+/* paragraphe de l'entete */
+    .entete{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    /* paragraphe gauche */
+        .gauche{
+            font-size: 30px;
+            width: 400px;
+            height: 250px;
+        }
+    /* paragraphe droite */
+        .droitep{
+            margin-top: 30px;
+            width: 400px;
+            height: 200px;
+            color: grey;
+        }
+/* fin paragraphe de l'entete */
+
+/* bloc de photos */
+    .photos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .photos .a, .photos .c{
+        border-radius: 20px;
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .photos .b, .photos .d{
+        border-radius: 20px;
+        margin-top: 100px;
+        height: 300px;
+        width: 250px;
+        object-fit: cover;
+    }
+
+    .photo1 a, .photo3 a{
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    /* liens au survol */
+        .photo1 a:hover, .photo3 a:hover{
+            background-color: black;
+            color: white;
+        }
+    
+    /* les images de fleches */
+        .photo1 .elts .flc, .photo2 .flc ,.photo3 .elts .flc, .photo4 .flc{
+            width: 30px;
+            height: 30px;
+        }
+
+    .photo1 .elts, .photo3 .elts{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: -60px;
+        margin-left: 30px; 
+    }
+
+    .photo2 div, .photo4 div{
+        margin-top: -420px;
+    }
+    .photo2 h2, .photo4 h2{
+        width: 100px;
+        font-size: 16px;
+    }
+    .photo2 p, .photo4 p{
+        font-size: 12px;
+        color: grey;
+    }
+
+    .photo2 .flc, .photo4 .flc{
+        background-color: white;
+        margin-bottom: 270px;
+        margin-left: -30px;
+        border-radius: 10px;
+    }
+/* fin bloc photos */
+
+/* ligne verticale */
+    hr{
+        width: 95%;
+        border: 3px solid rgb(155, 153, 153);
+    }
+/* fin ligne verticale */
+
+/* menu du footer */
+    .menuFooter{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menuFooter p{
+        width: 320px;
+        height: 100px;
+        font-size: 30px;
+        padding: 15px;
+    }
+    .menuFooter p span{
+        background-color: rgb(155, 153, 153);
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 15px;
+    }
+
+    /* liste des liens du footer */
+        .produit, .company{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            font-size: 12px;
+            margin-top: 35px;
+            margin-bottom: 30px;
+        }
+        .produit h1, .company h1{
+            font-size: 13px;
+            /* margin-bottom: -10px; */
+        }
+        .produit span, .company span{
+        color: rgb(121, 119, 119);
+        }
+    
+    /* messages */
+        .msg p{
+            width: 197px;
+            /* height: 50px; */
+            font-size: 14px;
+            text-align: justify;
+        }
+        .msg input{
+            border: 1px solid rgb(155, 153, 153);
+            border-radius: 20px;
+            width: 200px;
+            height: 40px;
+            position: absolute;
+            margin-top: -1px;
+        }
+        .msg button{
+            position: relative;
+            width: 90px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            margin-left: 113px;
+            /* margin-top: 2px; */
+            margin-bottom: 20px;
+        }
+
+        /* border radius de fin des menu du footer */
+            .menuFooter{
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                background-color: whitesmoke;
+            }
+/* fin menu du footer */
+
+/* footer */
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        height: 300px;
+    }
+    footer .liens{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    footer .liens img{
+        width: 50px;
+        height: 50px;
+        border: 1px solid whitesmoke;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+
+    footer .copyright{
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        margin-top: -40px;
+    }
+
+    footer .confidentialite{
+            margin-left: 950px;
+            margin-top: -30px;
+    }
+
+    footer .confidentialite a{
+        color: whitesmoke;
+        text-decoration: none;
+        border: 1px solid whitesmoke;
+        border-radius: 20px;
+        padding: 10px;
+
+    }
+    footer .confidentialite a:hover{
+        background-color: whitesmoke;
+        color: black;
+        border: 1px solid black;
+    }
+/* fin footer */

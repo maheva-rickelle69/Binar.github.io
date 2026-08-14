@@ -1,0 +1,125 @@
+/* section vegetation */
+.people, .young{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ .people .young img, .peoples img, .bloc-ppl1 img, .bloc-ppl2 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ .young p .young1{
+    font-size: 22px;
+ }
+
+
+ .peoples{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+.peoples img{
+    margin-left: -10px;
+}
+
+.bloc-noir{
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.bloc-noir img{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px; 
+    margin-top: 10px;
+}
+.bloc-noir p{
+    color: white;
+    font-size: 40px;
+    margin-left: 70px;
+}
+
+.bloc-noir p span{
+    color: #9097a3;
+}
+
+.bloc-noir .lorem{
+    margin-top: -45px;
+    margin-left: 300px;
+    color: whitesmoke;
+    font-size: 16px;
+    width: 150px;
+}
+.bloc-ppl{
+    padding-top: 15px;
+    width: 500px;
+}
+.bloc-ppl1 .flc, .bloc-ppl2 .flc{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 440px;
+    margin-top: -70px;
+}
+
+.bloc-ppl1 h1, .bloc-ppl2 h1{
+    margin-left: 90px;
+    margin-top: -50px;
+    font-size: 20px;
+}
+
+.bloc-ppl1 .date, .bloc-ppl2 .date{
+    margin-left: 90px;
+    margin-top: -10px;
+    color: grey;
+    font-size: 15px;
+}
+
+.bloc-ppl1 .more, .bloc-ppl2 .more{
+    margin-left: 250px;
+    margin-top: -50px;
+    font-size: 15px;
+}
+
+.basdroite{
+    width: 600px;
+    margin-right: 10px;
+}
+.basdroite .ruis{
+    position: absolute;
+    width: 500px;
+    height: 610px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.basdroite .ruis-flc .img{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    margin-top: -10px;
+    margin-left: -15px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+
+}
+
+.basdroite .ruis-flc{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 10px 10px 10px;
+    background-color: whitesmoke;
+    bottom: 7px;
+    left: 550px;
+}
+/* fin vegeatation */
